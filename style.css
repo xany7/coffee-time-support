@@ -1,0 +1,13 @@
+:root { color-scheme: light; background: #f5eddf; color: #3a2e24; font-family: system-ui, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 690px; margin-inline: auto; padding: 48px 24px; }
+header { padding-bottom: 20px; border-bottom: 1px solid #cdb99f; }
+h1 { margin: 0; font: 650 clamp(32px,8vw,50px)/1.1 Baskerville,"Songti SC",Georgia,serif; }
+header p { margin-bottom: 0; }
+nav, footer { display: flex; flex-wrap: wrap; gap: 13px; padding-block: 13px; }
+section { border-bottom: 1px solid #daccb9; padding-block: 15px; }
+h2 { font-size: 20px; }
+p { line-height: 1.65; overflow-wrap: anywhere; }
+a { color: #77492e; text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid #77492e; outline-offset: 4px; }
